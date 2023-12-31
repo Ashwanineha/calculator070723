@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{ 
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+        }
+        .main{
+            background-color: black;
+            width: 30%;
+            height: 30vh;
+            border: 2px solid red;
+            border-radius: 2%;
+            color: white;
+        }
+        .bg{display: flex;
+            margin-left: 20px;
+            
+        }
+        .bg1{
+            display: flex;
+            justify-content: space-evenly;
+            height: 3vh;
+            
+        }
+        .pic{
+            background-color: aqua;
+            width: 20%;
+            height: 10vh;
+            margin-left: 50%;
+            padding-bottom: 5%;
+            position: relative;
+            bottom: 50px;            
+        }
+        .input{
+            border: 2px solid white;
+            height: 30px;
+            position: absolute;
+            top: 50%;
+            left:45%;
+        }
+        .input1{
+            border: 2px solid rgb(7, 6, 6);
+            height: 30px;
+            position: absolute;
+            top: 40%;
+            left:45%;
+        }
+        .input2{
+            border: 2px solid rgb(7, 6, 6);
+            height: 30px;
+            position: absolute;
+            top: 35%;
+            left:45%;
+        }
+        #branch{margin-top: 5%;}
+        
+    </style>
+</head>
+<body>
+    
+ <div class="header">
+    <div class="main" id="box1">
+        <h3 class="bg1" id="name"><p>Name:</p><div class="pic"></div> <input class="input2" type="text"> </h3>
+        <h3 class="bg" id="branch" > <p>Ducat ID:</p> <input class="input" type="text"> </h3>
+        <h3 class="bg" id="course"> <p>Course:</p> <input class="input1" type="text"> </h3>
+        
+    </div>
+    
+    
+ </div>
+
+    <script src="gg.js"></script>
+</body>
+</html>
